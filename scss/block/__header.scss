@@ -1,0 +1,96 @@
+.header
+{
+    width: 100%;
+    height: 724px;
+    margin: auto;
+    margin-top: 10px;
+    &__head 
+    {
+        width: 1360px;
+        height: 60px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        align-items: center;
+        justify-content: space-between;
+        &__ul1 
+        {
+            margin-top: 10px;
+        }
+        &__body 
+        {
+            display: flex;
+            gap: 20px;
+        }
+        &__footer 
+        {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            color: #403F3D;
+            &__li 
+            {
+                width: 50px;
+                height: 24px;
+                float: left;
+                align-items: center;
+            }
+        }
+    }
+    &__foot 
+    {
+        width: 100%;
+        height: 644px;
+        margin-top: 10px;
+        &__footer 
+        {
+            width: 1360px;
+            height: 644px;
+            margin: auto;
+            border-radius: 40px;
+            padding: 100px;
+            background-image: url(../../img/img-hero.svg);
+            &__text 
+            {
+                width: 530px;
+                height: 444px;
+                &__ul1 
+                {
+                 font-size: 72px;
+                 line-height: 75.6px;
+                 font-style: italic;
+                 font: 600;
+                 color:#E1D4C9;
+                 
+                 &__i 
+                 {
+                    color: #B0907A;
+                 }
+                }
+                &__ul2 
+                {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color:#E1D4C9;
+                    margin-top: 50px;
+                    text-align: left;
+                }
+                &__btn
+                {
+                    width: 200px;
+                    height: 64px;
+                    background-color:#E1D4C9;
+                    border-radius: 50px;
+                    border: 1px solid #E1D4C9;
+                    color: #403F3D;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    font-weight: 600;
+                    margin-top: 27px;
+                }
+            }
+        }
+    }
+}
